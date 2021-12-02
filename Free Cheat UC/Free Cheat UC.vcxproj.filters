@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Da Battleeye Bypass">
+      <UniqueIdentifier>{6cf2229e-0a37-4851-b12e-6ab190c144f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Da Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Da Drawings">
+      <UniqueIdentifier>{8e92940d-90cb-4797-95ff-2be13e395f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Da Features">
+      <UniqueIdentifier>{47f44e50-1495-4e95-b830-88d7b723e367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Da Main">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Da Main</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Da Drawings</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\baseadress.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\file_utils.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\mhyprot.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\service_utils.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\utils.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+    <ClCompile Include="PastedBypass\win_utils.cpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="globals.h">
+      <Filter>Da Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.hpp">
+      <Filter>Da Drawings</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Da Features</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Da Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.hpp">
+      <Filter>Da Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\baseadress.h">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\file_utils.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\log.h">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\logger.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\mhyprot.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\nt.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\raw_driver.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\readbase.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\service_utils.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\utils.h">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="PastedBypass\win_utils.hpp">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Da Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Da Features</Filter>
+    </ClInclude>
+    <ClInclude Include="BypassMain.h">
+      <Filter>Da Battleeye Bypass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
